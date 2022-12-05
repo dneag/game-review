@@ -62,7 +62,7 @@ export default {
         const { error } = await supabase.rpc('delete_user_account', { userid: userId.value });
         if (error) throw error;
         store.methods.setUser(null);
-        router.push('/');
+        router.push('/game-review');
       } catch (error) {
         errorMessage.value = `Error: ${ error.message }`;
         setTimeout(() => {

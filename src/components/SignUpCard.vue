@@ -92,7 +92,7 @@ export default {
             }
           );
           if (error) throw error;
-          router.push('/');
+          router.push('/game-review');
         } catch(error) {
           errorMessage.value = error.message;
           setTimeout(() => {

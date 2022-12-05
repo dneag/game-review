@@ -66,7 +66,7 @@ export default {
           password: password.value
         });
         if (error) throw error;
-        router.push('/');
+        router.push('/game-review');
       } catch (error) {
         errorMessage.value = `Error: ${ error.message }`;
         setTimeout(() => {
