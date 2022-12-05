@@ -36,7 +36,7 @@ export default {
 
     const logout = async () => {
       await supabase.auth.signOut();
-      router.push('/game-review');
+      router.push('/tag-review');
     }
 
     return { user, logout };

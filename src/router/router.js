@@ -8,7 +8,7 @@ import GamePage from "../views/GamePage.vue";
 
 const routes = [
   {
-    path: "/game-review",
+    path: "/tag-review",
     name: "Home",
     component: Home,
   },
