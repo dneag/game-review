@@ -1,3 +1,6 @@
+<!-- An input field that displays a dropdown list of games corresponding to the text typed.  Each keypress
+     updates the list -->
+     
 <template>
     <div class="relative">
         <input :id="inputID" class="mx-1 px-1 rounded-lg w-48" type="text" placeholder="Enter game title" 
